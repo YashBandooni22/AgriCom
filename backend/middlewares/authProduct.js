@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken"
 
 // Doctor authentication middleware
-const authDoctor = async (req, res, next) => {
+const authProduct = async (req, res, next) => {
     try {
         
         const {dtoken} = req.headers
@@ -19,4 +19,4 @@ const authDoctor = async (req, res, next) => {
     }
 }
 
-export default authDoctor
+export default authProduct
